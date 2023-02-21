@@ -1,0 +1,181 @@
+{
+  "patches": {
+    "@/main": {
+      "nodes": {
+        "rJYGuKpTj": {
+          "id": "rJYGuKpTj",
+          "type": "xod/core/clock",
+          "position": {
+            "x": 12,
+            "y": 0,
+            "units": "slots"
+          }
+        },
+        "ByvHdFaas": {
+          "id": "ByvHdFaas",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 12,
+            "y": 2,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "B1oqkTnIb": "D11"
+          }
+        },
+        "rJ0PuFaao": {
+          "id": "rJ0PuFaao",
+          "type": "xod/core/flip-flop",
+          "position": {
+            "x": 12,
+            "y": 1,
+            "units": "slots"
+          }
+        },
+        "rJYidFp6o": {
+          "id": "rJYidFp6o",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 8,
+            "y": 2,
+            "units": "slots"
+          },
+          "size": {
+            "width": 3,
+            "height": 1,
+            "units": "slots"
+          }
+        },
+        "BJXnYtp6s": {
+          "id": "BJXnYtp6s",
+          "type": "xod/common-hardware/button",
+          "position": {
+            "x": 15,
+            "y": 0,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "ByNiWkt8Z": "D9"
+          }
+        },
+        "r18EyqTao": {
+          "id": "r18EyqTao",
+          "type": "xod/common-hardware/analog-sensor",
+          "position": {
+            "x": 2,
+            "y": 0,
+            "units": "slots"
+          }
+        },
+        "H15U1qaai": {
+          "id": "H15U1qaai",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 3,
+            "y": 1,
+            "units": "slots"
+          },
+          "size": {
+            "width": 3,
+            "height": 1,
+            "units": "slots"
+          }
+        },
+        "SkWrZ9WRj": {
+          "id": "SkWrZ9WRj",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 17,
+            "y": 2,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "B1oqkTnIb": "D12"
+          }
+        },
+        "By7U-cbRs": {
+          "id": "By7U-cbRs",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 22,
+            "y": 2,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "B1oqkTnIb": "D13"
+          }
+        }
+      },
+      "links": {
+        "SkaYdYa6i": {
+          "id": "SkaYdYa6i",
+          "output": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "ByvHdFaas",
+            "pinKey": "HyYh1a3LZ"
+          }
+        },
+        "rkr2_ta6s": {
+          "id": "rkr2_ta6s",
+          "output": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "rJYidFp6o",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "BkLP1qT6o": {
+          "id": "BkLP1qT6o",
+          "output": {
+            "nodeId": "r18EyqTao",
+            "pinKey": "BkoeN9Ay7"
+          },
+          "input": {
+            "nodeId": "H15U1qaai",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "SJvBbqWRj": {
+          "id": "SJvBbqWRj",
+          "output": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "SkWrZ9WRj",
+            "pinKey": "HyYh1a3LZ"
+          }
+        },
+        "S1_UZcZRi": {
+          "id": "S1_UZcZRi",
+          "output": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "By7U-cbRs",
+            "pinKey": "HyYh1a3LZ"
+          }
+        },
+        "BJWBGcbCs": {
+          "id": "BJWBGcbCs",
+          "output": {
+            "nodeId": "BJXnYtp6s",
+            "pinKey": "BJ--G1tI-"
+          },
+          "input": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "ryTIROHwkW"
+          }
+        }
+      },
+      "path": "@/main"
+    }
+  },
+  "name": "sensor-test"
+}
