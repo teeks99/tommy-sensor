@@ -104,6 +104,30 @@
           "boundLiterals": {
             "B1oqkTnIb": "D13"
           }
+        },
+        "HJyAC0zCo": {
+          "id": "HJyAC0zCo",
+          "type": "marcoaita/malibrary/buzzer",
+          "position": {
+            "x": 28,
+            "y": 2,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "ByeIUjXm-Q": "D8"
+          }
+        },
+        "H1zZx17Ro": {
+          "id": "H1zZx17Ro",
+          "type": "xod/debug/tweak-number",
+          "position": {
+            "x": 30,
+            "y": 0,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "ByfGSDjQE": "1000"
+          }
         }
       },
       "links": {
@@ -171,6 +195,28 @@
           "input": {
             "nodeId": "rJ0PuFaao",
             "pinKey": "ryTIROHwkW"
+          }
+        },
+        "B1s0ACGRi": {
+          "id": "B1s0ACGRi",
+          "output": {
+            "nodeId": "BJXnYtp6s",
+            "pinKey": "BJ--G1tI-"
+          },
+          "input": {
+            "nodeId": "HJyAC0zCo",
+            "pinKey": "Hkb8Ui77-7"
+          }
+        },
+        "r18Wxy7Cs": {
+          "id": "r18Wxy7Cs",
+          "output": {
+            "nodeId": "H1zZx17Ro",
+            "pinKey": "ByfGSDjQE"
+          },
+          "input": {
+            "nodeId": "HJyAC0zCo",
+            "pinKey": "HkULoQXbQ"
           }
         }
       },
