@@ -1,0 +1,365 @@
+{
+  "patches": {
+    "@/main": {
+      "links": {
+        "rkr2_ta6s": {
+          "id": "rkr2_ta6s",
+          "output": {
+            "nodeId": "rJ0PuFaao",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "rJYidFp6o",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "BkLP1qT6o": {
+          "id": "BkLP1qT6o",
+          "output": {
+            "nodeId": "r18EyqTao",
+            "pinKey": "BkoeN9Ay7"
+          },
+          "input": {
+            "nodeId": "H15U1qaai",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "r18Wxy7Cs": {
+          "id": "r18Wxy7Cs",
+          "output": {
+            "nodeId": "H1zZx17Ro",
+            "pinKey": "ByfGSDjQE"
+          },
+          "input": {
+            "nodeId": "HJyAC0zCo",
+            "pinKey": "HkULoQXbQ"
+          }
+        },
+        "r1XO3z91h": {
+          "id": "r1XO3z91h",
+          "output": {
+            "nodeId": "Hy_P3Mckn",
+            "pinKey": "Sk1e_NIVE"
+          },
+          "input": {
+            "nodeId": "ByvHdFaas",
+            "pinKey": "HyYh1a3LZ"
+          }
+        },
+        "H1uipM5yn": {
+          "id": "H1uipM5yn",
+          "output": {
+            "nodeId": "S1jDpfqk3",
+            "pinKey": "B19RYS3lW"
+          },
+          "input": {
+            "nodeId": "SkWrZ9WRj",
+            "pinKey": "HyYh1a3LZ"
+          }
+        },
+        "SkGzCMck3": {
+          "id": "SkGzCMck3",
+          "output": {
+            "nodeId": "HJU56fcy2",
+            "pinKey": "ByfGSDjQE"
+          },
+          "input": {
+            "nodeId": "S1jDpfqk3",
+            "pinKey": "HJbACN3gb"
+          }
+        },
+        "SJSMAf512": {
+          "id": "SJSMAf512",
+          "output": {
+            "nodeId": "r18EyqTao",
+            "pinKey": "BkoeN9Ay7"
+          },
+          "input": {
+            "nodeId": "S1jDpfqk3",
+            "pinKey": "rJg00Nhe-"
+          }
+        },
+        "HyNqWQck3": {
+          "id": "HyNqWQck3",
+          "output": {
+            "nodeId": "r18EyqTao",
+            "pinKey": "BkoeN9Ay7"
+          },
+          "input": {
+            "nodeId": "Synpgm513",
+            "pinKey": "HJjZLRdBw1-"
+          }
+        },
+        "SkNrMQqJh": {
+          "id": "SkNrMQqJh",
+          "output": {
+            "nodeId": "HJU56fcy2",
+            "pinKey": "ByfGSDjQE"
+          },
+          "input": {
+            "nodeId": "Synpgm513",
+            "pinKey": "SJqZ8COrDkW"
+          }
+        },
+        "BkwqN7cyh": {
+          "id": "BkwqN7cyh",
+          "output": {
+            "nodeId": "S1jDpfqk3",
+            "pinKey": "B19RYS3lW"
+          },
+          "input": {
+            "nodeId": "BkTtN79yn",
+            "pinKey": "Bkh8A_Sv1-"
+          }
+        },
+        "SJVCVmc12": {
+          "id": "SJVCVmc12",
+          "output": {
+            "nodeId": "BkTtN79yn",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "BJoa47cyn",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "BkFIrXqkn": {
+          "id": "BkFIrXqkn",
+          "output": {
+            "nodeId": "BkTtN79yn",
+            "pinKey": "HkyxURuSPyW"
+          },
+          "input": {
+            "nodeId": "BJz8BQ9J2",
+            "pinKey": "SJMVU0urvkZ"
+          }
+        },
+        "rJRLHQ9yh": {
+          "id": "rJRLHQ9yh",
+          "output": {
+            "nodeId": "Synpgm513",
+            "pinKey": "HktZUCdrPkZ"
+          },
+          "input": {
+            "nodeId": "BJz8BQ9J2",
+            "pinKey": "r1bVLR_BPJW"
+          }
+        },
+        "Sk3wHm91h": {
+          "id": "Sk3wHm91h",
+          "output": {
+            "nodeId": "BJz8BQ9J2",
+            "pinKey": "B1gN80uHvk-"
+          },
+          "input": {
+            "nodeId": "By7U-cbRs",
+            "pinKey": "HyYh1a3LZ"
+          }
+        }
+      },
+      "nodes": {
+        "rJYGuKpTj": {
+          "id": "rJYGuKpTj",
+          "type": "xod/core/clock",
+          "position": {
+            "x": 11,
+            "y": -1,
+            "units": "slots"
+          }
+        },
+        "ByvHdFaas": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D11"
+          },
+          "label": "Green LED",
+          "id": "ByvHdFaas",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 28,
+            "y": 0,
+            "units": "slots"
+          }
+        },
+        "rJ0PuFaao": {
+          "id": "rJ0PuFaao",
+          "type": "xod/core/flip-flop",
+          "position": {
+            "x": 27,
+            "y": 1,
+            "units": "slots"
+          }
+        },
+        "rJYidFp6o": {
+          "size": {
+            "width": 3,
+            "height": 1,
+            "units": "slots"
+          },
+          "id": "rJYidFp6o",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 26,
+            "y": 2,
+            "units": "slots"
+          }
+        },
+        "BJXnYtp6s": {
+          "boundLiterals": {
+            "ByNiWkt8Z": "D9"
+          },
+          "id": "BJXnYtp6s",
+          "type": "xod/common-hardware/button",
+          "position": {
+            "x": 27,
+            "y": 5,
+            "units": "slots"
+          }
+        },
+        "r18EyqTao": {
+          "id": "r18EyqTao",
+          "type": "xod/common-hardware/analog-sensor",
+          "position": {
+            "x": 20,
+            "y": 0,
+            "units": "slots"
+          }
+        },
+        "H15U1qaai": {
+          "size": {
+            "width": 2,
+            "height": 1,
+            "units": "slots"
+          },
+          "id": "H15U1qaai",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 18,
+            "y": 1,
+            "units": "slots"
+          }
+        },
+        "SkWrZ9WRj": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D12"
+          },
+          "label": "Yellow LED",
+          "id": "SkWrZ9WRj",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 19,
+            "y": 3,
+            "units": "slots"
+          }
+        },
+        "By7U-cbRs": {
+          "boundLiterals": {
+            "B1oqkTnIb": "D13"
+          },
+          "label": "Red LED",
+          "id": "By7U-cbRs",
+          "type": "xod/common-hardware/led",
+          "position": {
+            "x": 23,
+            "y": 5,
+            "units": "slots"
+          }
+        },
+        "HJyAC0zCo": {
+          "boundLiterals": {
+            "ByeIUjXm-Q": "D8"
+          },
+          "id": "HJyAC0zCo",
+          "type": "marcoaita/malibrary/buzzer",
+          "position": {
+            "x": 29,
+            "y": 2,
+            "units": "slots"
+          }
+        },
+        "H1zZx17Ro": {
+          "boundLiterals": {
+            "ByfGSDjQE": "1000"
+          },
+          "id": "H1zZx17Ro",
+          "type": "xod/debug/tweak-number",
+          "position": {
+            "x": 31,
+            "y": 1,
+            "units": "slots"
+          }
+        },
+        "Hy_P3Mckn": {
+          "id": "Hy_P3Mckn",
+          "type": "xod/debug/tweak-boolean",
+          "position": {
+            "x": 29,
+            "y": -1,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "Sk1e_NIVE": "True"
+          }
+        },
+        "S1jDpfqk3": {
+          "id": "S1jDpfqk3",
+          "type": "xod/core/greater",
+          "position": {
+            "x": 20,
+            "y": 2,
+            "units": "slots"
+          }
+        },
+        "HJU56fcy2": {
+          "id": "HJU56fcy2",
+          "type": "xod/debug/tweak-number",
+          "position": {
+            "x": 23,
+            "y": 0,
+            "units": "slots"
+          },
+          "boundLiterals": {
+            "ByfGSDjQE": ".01"
+          }
+        },
+        "Synpgm513": {
+          "id": "Synpgm513",
+          "type": "xod/core/less",
+          "position": {
+            "x": 24,
+            "y": 1,
+            "units": "slots"
+          }
+        },
+        "BkTtN79yn": {
+          "id": "BkTtN79yn",
+          "type": "xod/core/flip-flop",
+          "position": {
+            "x": 15,
+            "y": 3,
+            "units": "slots"
+          }
+        },
+        "BJoa47cyn": {
+          "id": "BJoa47cyn",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 15,
+            "y": 4,
+            "units": "slots"
+          }
+        },
+        "BJz8BQ9J2": {
+          "id": "BJz8BQ9J2",
+          "type": "xod/core/and",
+          "position": {
+            "x": 21,
+            "y": 4,
+            "units": "slots"
+          }
+        }
+      },
+      "path": "@/main"
+    }
+  },
+  "name": "sensor-test"
+}
