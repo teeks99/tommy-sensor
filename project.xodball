@@ -199,6 +199,28 @@
             "nodeId": "SkWrZ9WRj",
             "pinKey": "HyYh1a3LZ"
           }
+        },
+        "B1LliYhg2": {
+          "id": "B1LliYhg2",
+          "output": {
+            "nodeId": "SkGZqtnen",
+            "pinKey": "B1gN80uHvk-"
+          },
+          "input": {
+            "nodeId": "BJMejK3e3",
+            "pinKey": "HkXK-dGob"
+          }
+        },
+        "r1eK0F2gh": {
+          "id": "r1eK0F2gh",
+          "output": {
+            "nodeId": "BJz8BQ9J2",
+            "pinKey": "B1gN80uHvk-"
+          },
+          "input": {
+            "nodeId": "HJyAC0zCo",
+            "pinKey": "Hkb8Ui77-7"
+          }
         }
       },
       "nodes": {
@@ -271,7 +293,7 @@
           "id": "By7U-cbRs",
           "type": "xod/common-hardware/led",
           "position": {
-            "x": 18,
+            "x": 20,
             "y": 6,
             "units": "slots"
           }
@@ -283,8 +305,8 @@
           "id": "HJyAC0zCo",
           "type": "marcoaita/malibrary/buzzer",
           "position": {
-            "x": 27,
-            "y": 5,
+            "x": 24,
+            "y": 6,
             "units": "slots"
           }
         },
@@ -295,8 +317,8 @@
           "id": "H1zZx17Ro",
           "type": "xod/debug/tweak-number",
           "position": {
-            "x": 29,
-            "y": 4,
+            "x": 26,
+            "y": 5,
             "units": "slots"
           }
         },
@@ -330,7 +352,7 @@
             "units": "slots"
           },
           "boundLiterals": {
-            "ByfGSDjQE": ".01"
+            "ByfGSDjQE": ".05"
           }
         },
         "Synpgm513": {
@@ -346,7 +368,7 @@
           "id": "BJz8BQ9J2",
           "type": "xod/core/and",
           "position": {
-            "x": 19,
+            "x": 21,
             "y": 5,
             "units": "slots"
           }
@@ -373,7 +395,7 @@
           "id": "S1cX4Fhln",
           "type": "xod/debug/watch",
           "position": {
-            "x": 22,
+            "x": 18,
             "y": 6,
             "units": "slots"
           }
@@ -393,6 +415,15 @@
           "position": {
             "x": 14,
             "y": 5,
+            "units": "slots"
+          }
+        },
+        "BJMejK3e3": {
+          "id": "BJMejK3e3",
+          "type": "xod/debug/watch",
+          "position": {
+            "x": 11,
+            "y": 6,
             "units": "slots"
           }
         }
